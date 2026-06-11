@@ -1,0 +1,4 @@
+AuthName "GHL-Downloads"
+AuthUserFile "/home/allteks2/.htpasswds/public_html/ghlabs.net/downloads/passwd"
+Options +Indexes
+IndexOptions +FancyIndexing

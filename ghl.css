@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+       overflow-y: scroll;
+}
+
+body,td,th {
+	font-family:  Tahoma, Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	vertical-align:top;
+}
+body {
+	background-color: #CCCCCC;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	background-image:url(images/bg_page_global.png); 
+	background-repeat:repeat;
+	 
+}
+div.wrapper {
+width : 980px ;
+margin-left : auto ;
+margin-right : auto ;
+position : relative ;
+} 
+
+
+table.ghp  {
+	width:980px;
+	background-color:#83C5E8;
+	background-image:url(images/bg_main_01.png);
+	background-repeat:repeat-x;
+	 
+}
+td.leftcol { 
+	width:185px;
+	vertical-align:top;
+	text-align:center;
+	
+	
+}
+td.maincontent { 
+	width:555px;
+	padding:0px; padding-right:0px;
+	vertical-align:top; 
+	background-image:url(images/bg_content_main_02.png);  
+	background-repeat:no-repeat; 
+	
+}
+
+td.bottomcap { 
+	background-image:url(images/bg_content_main_bottom_cap.png);
+	background-repeat:no-repeat;
+	
+}
+
+td.rghtcol { 
+	width:235px;	 
+	vertical-align:top; 	 
+}
+
+table.rightcol_inner_table {
+	width:235px;
+	
+	
+}
+
+td.footerline { 
+	  border-top:1px dotted #0066CC;
+}
+
+td.submenutop { background-image:url(images/bg_submenu_top.png); background-repeat:no-repeat;
+}
+
+td.submenucontent {
+	background-image:url(images/bg_submenu_content.png);
+	padding-left:10px;
+}
+
+p.p_subMenu { padding-left:15px;
+}
+
+td.submenubottom { background-image:url(images/bg_submenu_bottom.png); background-repeat:no-repeat;
+}
+
+
+H1 {
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#7E0000;
+	letter-spacing:1px;
+	text-align:center;
+	text-transform:uppercase;
+	}
+	
+H2 {
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#7E0000;	
+	}
+	
+.h2cheat	{
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	color:#2F328F;
+	padding-left:5px;
+	}
+
+H3 {
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	letter-spacing:0.5px;
+	}
+	
+		
+td.rightcolumnflash { 
+	width:240px; height:220px;
+	padding-top:10px; padding-right:0px; padding-bottom:0px;padding-left:7px;
+	background-image:url(images/bg_div_right.png);
+	background-repeat:no-repeat;
+}	
+
+td.rightcolumn_keyconcepts { 
+	width:240px; height:220px;
+	padding-top:10px; padding-right:0px; padding-bottom:0px;padding-left:10px;
+	background-image:url(images/bg_div_right.png);
+	background-repeat:no-repeat;
+}	
+	
+div.rightcolumn { 
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	width:225px;
+	padding-top:12px; padding-right:3px; padding-bottom:10px;padding-left:7px;
+	background-image:url(images/bg_div_right.png);
+	background-repeat:no-repeat;
+}
+div.rightcolumnflash { 
+	width:225px;
+	padding-top:12px; padding-right:3px; padding-bottom:10px;padding-left:4px;
+	background-image:url(images/bg_div_right.png);
+	background-repeat:no-repeat;
+}
+
+
+.maincontent_pad {
+	padding-top:5px;
+	padding-right:25px;
+	text-align:justify;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	
+}
+
+ 
+#headerGHPtext {
+	position:absolute;
+	left:138px;
+	top:27px;
+	width:354px;
+	height:24px;
+	z-index:3;
+	visibility: visible;
+	color: #4060AB;
+	font-family: Tahoma, "Century Gothic", Verdana, Arial;
+	font-size: 21px;
+	font-style: italic;
+	font-weight: normal;
+}
+#addressBlock {
+	position:absolute;
+	left:728px;
+	top:12px;
+	width:245px;
+	height:37px;
+	z-index:1;
+	text-align:right;
+	color: #4060AB;
+	font-size: 12px;
+}
+#logo {
+	position:absolute;
+	left:5px;
+	top:4px;
+	width:83px;
+	height:37px;
+	z-index:2;
+}
+#WhatWhoWhy {
+	font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+	position:absolute;
+	left:649px;
+	top:203px;
+	width:318px;
+	height:21px;
+	z-index:1;
+	font-size:13px;
+	font-weight:bold;
+	color: #801423;
+}
+
+
+a:link {
+	color: #2F328F;
+}
+a:visited {
+	color: #2F328F;
+}
+a:hover {
+	color: #801423;
+}
+a:active {
+	color: #2F328F;
+}
+
+
+a:link.www {
+	color: #801423;
+	text-decoration:none;
+}
+a:visited.www {
+	color: #801423;
+	text-decoration:none;
+}
+a:hover.www {
+	color: #0354A5;
+	text-decoration:underline;
+}
+a:active.www {
+	color: #801423;
+}

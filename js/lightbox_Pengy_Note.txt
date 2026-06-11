@@ -1,0 +1,3 @@
+The lightbox.js fiel is modified from the original 'Lightbox2' lightbox.js file to handle iFrames.
+
+        - p -
